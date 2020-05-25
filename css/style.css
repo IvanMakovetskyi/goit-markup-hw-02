@@ -1,0 +1,218 @@
+/*
+#212121 чорний основний
+#000000 чорний темніший 
+#757575 сірий другий
+#ffffff білий
+#2196F3 синій для фокосу
+*/
+body{
+    font-family: Roboto
+}
+
+a{
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.name-company{
+    font-size: 26px;
+    line-height: 31px;
+
+    color: #000000;
+}
+
+.web-text{
+    color: #2196F3;
+}
+
+.nav-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.nav-link:focus,
+.nav-link:hover{
+    color: #2196F3;
+}
+
+.contacts-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #757575;
+}
+
+.contacts-text:focus,
+.contacts-text:hover{
+    color: #2196F3;
+}
+
+.hello-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #ffffff;
+}
+.buy{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #ffffff;
+    background-color: #2196F3;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.main-pyntks-title{
+    color: #ffffff;
+}
+
+.pyntks-title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+
+    color: #212121;
+}
+
+.pynkts-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+    color: #757575;
+}
+
+.what-are-we-doing-title{
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #212121;
+}
+
+.we-are-we-doing-text{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+.comand-container{
+    background-color: #F5F4FA;
+}
+
+.comand-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+
+    color: #212121;
+}
+
+.name-proger{
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #212121;
+    
+}
+
+.text-in-proger{
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #757575;
+}
+
+.clients-title{
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #212121;
+}
+
+footer{
+    background-color: #2F303A;
+}
+
+address{
+    font-style: normal;
+}
+
+.adress-text{
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #ffffff;
+}
+
+.studio-text{
+    color: #ffffff;
+}
+
+.link-adress{
+    font-size: 14px;
+    line-height: 24px;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.go-title{
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.go-link{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 30px;
+    
+    color: #ffffff;
+}
+
+.text{
+    font-size: 12px;
+    line-height: 24px;
+
+    color: rgba(194, 140, 140, 0.4);
+}
+
+.element-list-nav{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #212121;
+}
+
+.element-list-nav:focus,
+.element-list-nav:hover{
+    color: #2196F3;
+}
+
+.name-of-projects{
+    font-size: 18px;
+    line-height: 36px;
+
+    color: #212121;
+}
+
+.text-of-projects{
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #757575;
+}
