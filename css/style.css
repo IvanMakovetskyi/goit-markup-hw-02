@@ -12,23 +12,19 @@
 
 body{
     font-family: Roboto;
-    background-color: gray;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 a{
     text-decoration: none;
-    font-family: Roboto;
 }
 
 ul{
     list-style-type: none;
 }
 
-.width{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
 /*Header*/ /*Шапка*/
 nav{
@@ -44,6 +40,8 @@ nav{
 }
 
 .nav__name-company{
+    font-family: Raleway;
+    font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     
@@ -87,6 +85,7 @@ nav{
     font-size: 44px;
     line-height: 60px;
     text-align: center;
+    text-transform: uppercase;
 
     color: #ffffff;
 }
@@ -108,10 +107,11 @@ nav{
     color: #ffffff;
 }
 
-.pyntks__title{
+.pynkts__title{
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
+    text-transform: uppercase;
 
     color: #212121;
 }
@@ -137,6 +137,8 @@ nav{
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
+    text-transform: uppercase;
+
     color: #ffffff;
 }
 
@@ -193,6 +195,13 @@ nav{
     line-height: 24px;
 
     color: #ffffff;
+}
+
+.name-company{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
 }
 
 .name-company--white{
