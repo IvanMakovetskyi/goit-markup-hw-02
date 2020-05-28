@@ -27,17 +27,7 @@ ul{
 
 
 /*Header*/ /*Шапка*/
-nav{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-}
-.nav{
-    display: flex;
-}
-.contacts{
-    display: flex;
-}
+
 
 .nav__name-company{
     font-family: Raleway;
@@ -174,6 +164,7 @@ nav{
 /*Clients*/ /*Клиенти*/
 
 .clients-title{
+    font-weight: 700px;
     font-size: 36px;
     line-height: 42px;
 
@@ -186,8 +177,15 @@ nav{
     background-color: #2F303A;
 }
 
-.address{
+address{
     font-style: normal;
+}
+
+.adress__name-company{
+    font-family: Raleway;
+    font-weight: 700px;
+    font-size: 22px;
+    line-height: 26px;
 }
 
 .adress__text{
@@ -197,12 +195,6 @@ nav{
     color: #ffffff;
 }
 
-.name-company{
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-}
 
 .name-company--white{
     color: #ffffff;
@@ -218,6 +210,7 @@ nav{
 /*Go*/ /*Присоединяйтесь*/
 
 .go__title{
+    font-weight: 700px;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
@@ -225,16 +218,30 @@ nav{
     color: #ffffff;
 }
 
-.go__ss-link
+.go__ss-link{}
 
 /*Lets Go*/ /*Подписаться*/
 .lets-go__title{
+    font-weight: 700px;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
 
     color: #ffffff;
 }
+
+.lets-go__text{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
 
 .lets-go__link{
     font-weight: 900;
@@ -248,7 +255,7 @@ nav{
     font-size: 12px;
     line-height: 24px;
 
-    color: rgba(194, 140, 140, 0.4);
+    color: rgba(255, 255, 255, 0.4);
 }
 
 /*PORTFOLIO*/ /*Портфолио*/
